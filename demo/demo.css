@@ -1,4 +1,8 @@
-#one-div {
+.div-class {
   height: 100px;
   border: 1px solid black;
+}
+
+#unorder-list {
+  list-style-type: none;
 }

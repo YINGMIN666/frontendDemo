@@ -8,19 +8,39 @@
     <link rel="stylesheet" href="demo.css" />
   </head>
   <body>
-    <div id="one-div"></div>
+    <div id="one-div" class="div-class"></div>
+    <div id="two-div" class="div-class"></div>
+    <div>
+      <div></div>
+    </div>
     <span>one word</span>
-    <input type="text" />
+    <input type="text" id="text-input" />
     <input type="number" />
     <ol>
       <li>Coffee</li>
       <li>Tea</li>
       <li>Milk</li>
     </ol>
-    <ul style="list-style-type: disc">
+    <ul id="unorder-list">
       <li>Coffee</li>
       <li>Tea</li>
       <li>Milk</li>
     </ul>
+    <button onclick="clickMe()" style="color: red">Test Button</button>
+
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
   </body>
+  <script>
+    const clickMe = () => {
+      const value = document.getElementById("text-input").value;
+      alert(value.toUpperCase());
+    };
+  </script>
+  <style></style>
 </html>
