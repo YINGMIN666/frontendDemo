@@ -1,8 +1,57 @@
-.div-class {
+/* .div-class {
   height: 100px;
   border: 1px solid black;
 }
 
 #unorder-list {
   list-style-type: none;
+}
+.test1,
+.test2,
+#test3 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border: 1px solid black;
+} */
+
+/* 
+.outer > span {
+  background-color: grey;
+}
+/* .inner > span {
+  background-color: grey;
+} */
+.outer span {
+  background-color: grey;
+}
+*/ #testId {
+  border: 1px solid black;
+  width: 100px;
+  height: 200px;
+  background-color: red;
+}
+
+#testId {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.ele {
+  /* width: 100px;
+  height: 100px; */
+  flex: 1px;
+  border: 1px solid black;
+}
+.container {
+  display: flex;
+  /* width: 300px;
+  height: 300px; */
+  border: 1px solid black;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
